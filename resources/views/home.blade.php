@@ -9,29 +9,38 @@
 </head>
 <body class="min-h-screen bg-base-200 flex flex-col">
 
-    <nav class="navbar bg-base-100 shadow px-6">
-        <div class="flex-1">
-            <a class="btn btn-ghost text-xl font-bold normal-case">Chirper</a>
-        </div>
-        <div class="flex gap-2">
-            <a class="btn btn-ghost">Home</a>
-            <a class="btn btn-ghost">Chirps</a>
-        </div>
-    </nav>
+    <nav class="navbar bg-gradient-to-r from-blue-600 to-green-600 text-white shadow-lg px-6">
+    <div class="flex-1">
+        <a class="btn btn-ghost text-xl font-bold normal-case text-white hover:bg-white/10">
+            CHIRPER
+        </a>
+    </div>
+    <div class="flex gap-2">
+        <a class="btn btn-ghost text-white hover:bg-white/10">Home |</a>
+        <a class="btn btn-ghost text-white hover:bg-white/10">Chirps</a>
+    </div>
+</nav>
 
     <main class="flex-1 flex items-center justify-center">
         <div class="text-center max-w-xl px-4">
             <h1 class="text-4xl md:text-6xl font-bold mb-4">
-                Welcome to Chirper!
+                Welcome to Chirper!!
             </h1>
-            <p class="text-lg mb-8">
-                Selamat bergabung, semoga harimu menyenangkan.
-            </p>
-            <p class="font-bold">
-                Dibuat oleh Nadila Humaira Br Sembiring (NIM: 230170134)
-            </p>
+    <div class="mt-6 inline-block rounded-2xl bg-indigo-100 px-6 py-4 shadow-md border border-indigo-200">
+    <p class="text-lg text-indigo-900">
+        Selamat Bergabung, Semoga Harimu Menyenangkan😇😇
+    </p>
+</div>
         </div>
     </main>
+
+    <footer class="w-full border-t bg-base-100">
+        <div class="max-w-5xl mx-auto px-4 py-4 text-center">
+            <p class="font-bold">
+                Dibuat oleh Nadila Humaira Br Sembiring | NIM: 230170134 🦖🦖
+            </p>
+        </div>
+    </footer>
 
 </body>
 </html>
