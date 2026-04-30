@@ -1,4 +1,4 @@
-@vite(['resources/css/app.css', 'resources/js/app.js'])
+
 
 <!DOCTYPE html>
 <html lang="en" data-theme="lofi">
@@ -6,18 +6,18 @@
     <title>Chirper</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="min-h-screen bg-base-200 flex flex-col">
+<body class="min-h-screen bg-gray-100 flex flex-col">
+    <h1 class="text-red-500 text-5xl">TES</h1>
 
-    <nav class="navbar bg-gradient-to-r from-blue-600 to-green-600 text-white shadow-lg px-6">
-    <div class="flex-1">
-        <a class="btn btn-ghost text-xl font-bold normal-case text-white hover:bg-white/10">
-            CHIRPER
-        </a>
+    <nav class="flex justify-between items-center bg-gradient-to-r from-blue-600 to-green-600 text-white px-6 py-4 shadow-lg">
+    <div class="text-xl font-bold">
+        CHIRPER
     </div>
-    <div class="flex gap-2">
-        <a class="btn btn-ghost text-white hover:bg-white/10">Home |</a>
-        <a class="btn btn-ghost text-white hover:bg-white/10">Chirps</a>
+    <div class="flex gap-4">
+        <a>Home</a>
+        <a>Chirps</a>
     </div>
 </nav>
 
@@ -34,7 +34,7 @@
         </div>
     </main>
 
-    <footer class="w-full border-t bg-base-100">
+    <footer class="w-full border-t bg-white">
         <div class="max-w-5xl mx-auto px-4 py-4 text-center">
             <p class="font-bold">
                 Dibuat oleh Nadila Humaira Br Sembiring | NIM: 230170134 🦖🦖
