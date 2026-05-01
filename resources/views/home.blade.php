@@ -9,7 +9,7 @@
      @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="min-h-screen bg-gray-100 flex flex-col">
-    <h1 class="text-red-500 text-5xl">TES</h1>
+    <h1 class="text-red-500 text-5xl"></h1>
 
     <nav class="flex justify-between items-center bg-gradient-to-r from-blue-600 to-green-600 text-white px-6 py-4 shadow-lg">
     <div class="text-xl font-bold">
@@ -29,6 +29,7 @@
     <div class="mt-6 inline-block rounded-2xl bg-indigo-100 px-6 py-4 shadow-md border border-indigo-200">
     <p class="text-lg text-indigo-900">
         Selamat Bergabung, Semoga Harimu Menyenangkan😇😇
+        
     </p>
 </div>
         </div>
